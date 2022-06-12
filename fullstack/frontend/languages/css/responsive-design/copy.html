@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <style>
+.item{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+    display:none;
+}
+
+@media (max-width:300px){
+    #item-1{
+        background-color: blue;
+        display: block;
+    }
+}
+@media (min-width:301px) and (max-width:600px){
+    #item-2{
+        background-color: rgb(66, 187, 92);
+        display: block;
+    }
+}
+@media (min-width:601px) and (max-width:900px){
+    #item-3{
+        background-color: blue;
+        display: block;
+    }
+}
+@media (min-width:901px){
+    #item-4{
+        background-color: rgb(255, 0, 106);
+        display: block;
+    }
+}
+        </style>
+        <div id="parent">
+<div class="item" id="item-1">small mobil from to 300px</div>
+<div class="item" id="item-2">tab 301 px to 6oopx</div>
+<div class="item" id="item-3">laptop 601 to 9oopx</div>
+<div class="item" id="item-4">fromm 9o1 as much large tv</div>
+
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
